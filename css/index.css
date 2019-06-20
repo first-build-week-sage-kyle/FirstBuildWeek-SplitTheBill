@@ -1,6 +1,7 @@
-nav {
-  background-color: blue;
+header {
+  background-color: #85bb65;
+  display: flex;
 }
-nav a {
+header nav a {
   text-decoration: none;
 }
