@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -153,7 +154,24 @@ h5 {
 nav {
   background-color: blue;
 }
-nav a {
+header {
+  background-color: #85bb65;
+  display: flex;
+}
+header h1 {
+  z-index: 1;
+}
+header nav {
+  z-index: 1;
+}
+header nav a {
   text-decoration: none;
+  color: black;
+}
+header img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 /**/
