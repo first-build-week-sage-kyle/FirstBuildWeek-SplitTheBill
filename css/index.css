@@ -2,6 +2,19 @@ header {
   background-color: #85bb65;
   display: flex;
 }
+header h1 {
+  z-index: 1;
+}
+header nav {
+  z-index: 1;
+}
 header nav a {
   text-decoration: none;
+  color: black;
+}
+header img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
