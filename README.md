@@ -4,7 +4,7 @@ Project By Kyle and Sage
 
 # Things Kyle worked on
 1. Google font
-2. CSS Reset
+2. CSS Reset & General Styling
 3. Home Content Styling
 
 # Things Sage worked on
