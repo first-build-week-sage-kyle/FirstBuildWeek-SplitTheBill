@@ -241,6 +241,9 @@ header img {
     border-top: 4px solid black;
   }
 }
+html {
+  background-color: #85bb65;
+}
 .box-content {
   display: flex;
   flex-wrap: wrap;
