@@ -1,3 +1,2 @@
-const buttonClass = document.querySelector('.button');
-const downloadButton = buttonClass.querySelector('button');
-downloadButton.addEventListener('click', )
+const buttonClass = document.getElementById('download');
+buttonClass.addEventListener('click', () => {window.location.href = "download.html"});
