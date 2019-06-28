@@ -337,12 +337,20 @@ html {
     z-index: 2;
     width: 93%;
   }
-}
-.buttons button {
+
+.tabs {
   width: 100%;
-  margin: 1rem 0;
+}
+.tabs .tabs-items {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding-top: 60px;
+}
+.tabs .tabs-items button {
   font-size: 2rem;
-  border-radius: 25px;
+  padding: 3%;
+  align-items: center;
 }
 @media (max-width: 500px) {
   .buttons button {
@@ -350,6 +358,41 @@ html {
     margin: 1rem auto;
     right: 0.1rem;
   }
+=======
+.tabs .tabs-items button:hover {
+  color: #85bb65;
+}
+.tabs .tabs-item {
+  display: none;
+  width: 75%;
+  margin: auto;
+}
+.tabs .tabs-item-selected {
+  display: block;
+}
+.tabs .tabs-links {
+  display: flex;
+  justify-content: center;
+}
+.tabs .tabs-link {
+  padding: 20px 25px;
+  font-size: 24px;
+  background-color: lightgray;
+  border-right: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+.tabs .tabs-link:hover {
+  background-color: #85bb65;
+}
+.tabs .tabs-link-selected {
+  z-index: 2;
+  border-right: 1px solid black;
+  background-color: #85bb65;
+  color: black;
+}
+.tabs .tabs-link-selected:hover {
+  background-color: white;
 }
 .sdf {
   width: 98%;
