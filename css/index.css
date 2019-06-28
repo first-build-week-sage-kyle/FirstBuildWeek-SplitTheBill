@@ -328,32 +328,54 @@ html {
 .box-content .box a:hover {
   color: #85bb65;
 }
-.buttons {
-  width: 350px;
-  display: flex;
-  flex-direction: column;
+.tabs {
+  width: 100%;
+}
+.tabs .tabs-items {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding-top: 60px;
+}
+.tabs .tabs-items button {
+  font-size: 2rem;
+  padding: 3%;
+  align-items: center;
+}
+.tabs .tabs-items button:hover {
+  color: #85bb65;
+}
+.tabs .tabs-item {
+  display: none;
+  width: 75%;
   margin: auto;
 }
-@media (max-width: 600px) {
-  .buttons {
-    position: relative;
-    bottom: 200px;
-    z-index: 2;
-    width: 93%;
-  }
+.tabs .tabs-item-selected {
+  display: block;
 }
-.buttons button {
-  width: 100%;
-  margin: 1rem 0;
-  font-size: 2rem;
-  border-radius: 25px;
+.tabs .tabs-links {
+  display: flex;
+  justify-content: center;
 }
-@media (max-width: 600px) {
-  .buttons button {
-    position: relative;
-    margin: 1rem auto;
-    right: 0.1rem;
-  }
+.tabs .tabs-link {
+  padding: 20px 25px;
+  font-size: 24px;
+  background-color: lightgray;
+  border-right: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+.tabs .tabs-link:hover {
+  background-color: #85bb65;
+}
+.tabs .tabs-link-selected {
+  z-index: 2;
+  border-right: 1px solid black;
+  background-color: #85bb65;
+  color: black;
+}
+.tabs .tabs-link-selected:hover {
+  background-color: white;
 }
 .test {
   width: 50px;
