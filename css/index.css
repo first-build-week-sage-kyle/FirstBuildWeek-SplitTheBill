@@ -149,11 +149,7 @@ h5 {
   /* TB LR */
   margin: 0 auto;
 }
-.test {
-  width: 50px;
-  background-color: red;
-}
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .container {
     width: 98%;
     margin: auto;
@@ -167,13 +163,13 @@ header {
   border-radius: 25px;
   width: 98%;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header {
     flex-direction: column;
     margin: 0.3rem auto;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   header {
     text-align: center;
     margin: 0.3rem 0;
@@ -189,14 +185,14 @@ header h1 {
   margin: auto 0 auto 4%;
   flex-grow: 1;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header h1 {
     width: 100%;
     text-align: center;
     margin: auto;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   header h1 {
     margin-top: 1rem;
   }
@@ -208,7 +204,7 @@ header nav {
   display: flex;
   justify-content: space-around;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header nav {
     width: 100%;
     text-align: center;
@@ -224,7 +220,7 @@ header nav a {
 header nav a:hover {
   color: #85bb65;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header nav a {
     margin: 1rem auto;
     border: 1px solid black;
@@ -232,7 +228,7 @@ header nav a:hover {
     width: 80%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   header nav a {
     margin: 1rem auto;
     border: 1px solid black;
@@ -247,14 +243,14 @@ header img {
   z-index: -1;
   width: 100%;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header img {
     z-index: 1;
     position: relative;
     border-top: 4px solid black;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   header img {
     z-index: 1;
     position: relative;
@@ -276,7 +272,7 @@ html {
   text-align: center;
   background-color: lightgray;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .box-content .button {
     position: relative;
     left: auto;
@@ -284,7 +280,7 @@ html {
     margin-bottom: 10%;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .box-content .button {
     position: relative;
     left: auto;
@@ -334,7 +330,7 @@ html {
   flex-direction: column;
   margin: auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .buttons {
     position: relative;
     bottom: 200px;
@@ -348,15 +344,24 @@ html {
   font-size: 2rem;
   border-radius: 25px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .buttons button {
     position: relative;
     margin: 1rem auto;
     right: 0.1rem;
   }
 }
-.test {
-  width: 50px;
-  background-color: red;
-  z-index: 1;
+.sdf {
+  width: 98%;
+  height: 25%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 50px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: lightgray;
+}
+.bon {
+  text-align: center;
+  margin-bottom: 20px;
 }
